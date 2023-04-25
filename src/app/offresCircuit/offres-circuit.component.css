@@ -1,0 +1,284 @@
+/* .container{
+    width: 100%;
+    background-color: rgb(238, 150, 61);
+} */
+.container ul {
+  margin-top: 20px;
+  margin-bottom: 1%;
+}
+
+.offres-circuit {
+  margin-bottom: 0px;
+}
+
+.voir a {
+  margin-top: 10px;
+}
+
+.section_title {
+  margin-top: 0%;
+}
+
+.mr_3 {
+  margin-right: 10px
+}
+
+.container ul li.active,
+.container ul li:hover {
+  background: #675599;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.container ul li.active {
+  background-color: #675599;
+  color: #fff;
+  /* définit la couleur du texte en orange pour l'état actif */
+  border-radius: 4px;
+}
+
+.section-offres li {
+  margin-right: 40px;
+}
+
+a:hover,
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: #fff 0px;
+  padding: 8px;
+  padding-bottom: -1px;
+  padding-top: 2px;
+  border-radius: 6px;
+  border: 1px solid #675599;
+  text-shadow: #fff 0 0 1px;
+}
+
+a {
+  color: #675599;
+  text-decoration: none;
+  background-color: inherit;
+  -webkit-text-decoration-skip: unset;
+}
+
+a:hover {
+  color: #fff;
+
+}
+
+.section_title_container {
+  padding-top: 0px;
+}
+
+.section_title_container::after {
+
+  content: none;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  margin-right: 1%;
+  /* Ajoute un petit espacement entre les cartes */
+  vertical-align: top;
+  /* Aligne les cartes en haut */
+  margin-top: -10%;
+}
+
+img {
+  width: 300px;
+  height: 204px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  margin: 10px;
+}
+
+.card .img-wrapper {
+  position: relative;
+}
+
+.card .img-wrapper img {
+  border-radius: 5px;
+}
+
+.card .img-wrapper i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card .img-wrapper i.liked {
+  color: red;
+}
+
+.carousel {
+  margin-bottom: 3%;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.section-offres li {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 25%;
+    display: block;
+
+  }
+
+  .carousel-inner {
+    display: flex;
+  }
+}
+
+.card .img-wrapper {
+  max-width: 100%;
+  height: -1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  max-height: 100%;
+}
+
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
+  }
+}
+
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+  border:2px solid #ffffff;
+  background-color: #675599;
+  cursor: pointer;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 35px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+.carousel-indicators button.active {
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.carousel-indicators button {
+  background-color: #675599;
+}
+
+.small-icon {
+  font-size: 16px;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+.icofont-direction-sign {
+  font-size: 80px; /* change la taille de l'icône */
+  color: white; /* change la couleur de l'icône */
+  padding: 8px; /* ajoute de l'espace entre la bordure et l'icône */
+}
+.img-direction{
+  object-fit: none;
+  width: 10%;
+  margin-bottom: 0;
+  margin-top: -18px;
+}
+.card-body .text-right h5.card-title {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.3rem;
+  padding-left: 0%;
+  padding-right: 1%;
+  font-size: 0.5rem;;
+  font-weight: normal;
+  margin-bottom: 110px;
+  margin-right: -24px;
+  z-index: 1;
+}
+.btn-primary {
+  color: #675599;
+  background-color: fff;
+  border-color: #675599;
+  margin-top: 20%;
+}  
+.btn-primary:active :hover{
+  color: fff;
+  background-color: #675599;
+  border-color: #675599;
+  margin-top: 20%;
+}
+.nbre {
+  margin-bottom: 0.5rem!important;
+  margin-left: 0%;
+}
+.type {
+margin-bottom: 0.5rem!important;
+margin-left: -72%;
+}
+.adresse {
+margin-bottom: 0.5rem!important;
+margin-left: -57%;
+}
+.card-text[_ngcontent-qgl-c4] {
+  margin-right: 0;
+  margin-left: 40px;
+}
+p{
+  margin-top: 40px;
+  margin-left: 35px;
+}

@@ -1,0 +1,41 @@
+footer {
+    background-color:#FBA80A;
+    margin-top: 2%;
+  }
+ 
+  footer ul {
+    list-style: none;
+    color: #675599;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #676775;
+    margin-top: 30px;
+  }
+  .footer {
+    font-size: small;
+  }
+  .footer li:nth-child(3) {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .icofont-facebook:before {
+    content: "\ed37";
+    margin-inline: 4px;
+}
+.icofont-instagram:before {
+  content: "\ed46";
+  margin-inline: 4px;
+}
+.icofont-twitter:before {
+  content: "\ed7a";
+  margin-inline: 4px;
+}

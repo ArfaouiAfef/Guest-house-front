@@ -1,0 +1,173 @@
+.text-center {
+  margin-top: 4%;
+  margin-bottom: 0%;
+}
+.align-items-center {
+margin-top: 0%;
+align-items: center!important;
+}
+.section-offres li {
+  margin-right: 60px;
+}
+.section-offres li a {
+  color: #675599;
+}
+
+h5 {
+  color: #675599;
+}
+.section-offres li a{
+  background-color: #f3eded;
+  border: 2px solid #f3eded;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-right: 10px;
+}
+.section-offres li:hover a:hover {
+  border-color: #675599;
+}
+
+
+
+
+.card{
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  margin-right: 1%; /* Ajoute un petit espacement entre les cartes */
+vertical-align: top; /* Aligne les cartes en haut */
+}
+img {
+  width: 300px;
+  height: 204px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+.card {
+  border: none;
+  margin: 10px;
+}
+
+.card .img-wrapper {
+  position: relative;
+}
+
+.card .img-wrapper img {
+  border-radius: 5px;
+}
+
+.card .img-wrapper i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card .img-wrapper i.liked {
+  color: red;
+}
+.carousel {
+  margin-bottom: 3%;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}.section-offres li {
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 25%;
+    display: block;
+   
+  }
+  .carousel-inner {
+    display: flex;
+  }
+} 
+.card .img-wrapper {
+    max-width: 100%;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    max-height: 100%;
+}
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
+  }
+} 
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+  border:2px solid #675599;
+  background-color: #fff;
+  cursor: pointer;
+}
+.carousel-indicators button.active {
+  background-color: #675599;
+  border: 2px solid #675599;
+}
+
+.carousel-indicators button {
+  background-color: #fff;
+}
+.nbre {
+  margin-bottom: 0.5rem!important;
+  margin-left: -37%;
+}
+.time {
+  margin-bottom: 0.5rem!important;
+  margin-left: 0%;
+}
+.adresse {
+margin-bottom: 0.5rem!important;
+margin-left: -58%;
+}  
+.btn-primary {
+color: #fff;
+padding-bottom: 0;
+padding-top: 0;
+background-color: #675599;
+border-color: #675599;
+margin-top: 55%;
+}  
+.btn-primary:active{
+color: fff;
+background-color: #675599;
+border-color: #675599;
+}
+p{
+margin-top: 0px;
+margin-left: 35px;
+}
+
+
+
+
