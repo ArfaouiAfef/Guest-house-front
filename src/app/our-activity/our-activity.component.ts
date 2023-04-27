@@ -14,10 +14,10 @@ export class OurActivityComponent {
     });
   }
     cards = [
-      {id: 1, title: 'ACTIVITTY NAME', imageUrl: 'assets/images/house2.jpg', description: 'Some text', liked: false},
-      {id: 2, title: 'ACTIVITTY NAME', imageUrl: 'assets/images/house3.jpg', description: 'Some text', liked: false},
-      {id: 3, title: 'ACTIVITTY NAME', imageUrl: 'assets/images/house4.jpg', description: 'Some text', liked: false},
-      {id: 4, title: 'ACTIVITTY NAME', imageUrl: 'assets/images/house5.jpg', description: 'Some text', liked: false}
+      {id: 1, title: 'ACTIVITTY NAME', imageUrl: 'assets/images/activity1.jpg', description: 'Some text', liked: false},
+      {id: 2, title: 'ACTIVITTY NAME', imageUrl: 'assets/images/activity2.jpg', description: 'Some text', liked: false},
+      {id: 3, title: 'ACTIVITTY NAME', imageUrl: 'assets/images/activity3.jpg', description: 'Some text', liked: false},
+      {id: 4, title: 'ACTIVITTY NAME', imageUrl: 'assets/images/activity4.jpg', description: 'Some text', liked: false}
     ];
     
   

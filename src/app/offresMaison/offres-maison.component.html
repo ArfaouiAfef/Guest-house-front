@@ -1,10 +1,11 @@
-<div class="container ">
+
+  <div class="container ">
   <section class="offres-maison">
     <div class="container">
       <div class="row">
         <div class="col-md-12 d-flex flex-column align-items-center justify-content-center">
           <div class="section_title">
-            <h4 style="color: white; font-weight: bold;">OFFRES MAISON D'HOTE</h4>
+            <h4 style="color: white; font-weight: bold;font-size: 2em;font-family: Calibri;">OFFRES MAISON D'HOTE</h4>
           </div>
         </div>
       </div>
@@ -12,23 +13,23 @@
       <div class="row">
         <div class="col-md-12 d-flex flex-column align-items-center justify-content-center">
           <ul class="section-offres d-flex text-center" style="margin-bottom: 0;">
-            <li class="mr-3"><a href="#">Mer</a></li>
-            <li class="mr-3"><a href="#">Compagnes</a></li>
-            <li class="mr-3"><a href="#">Ile</a></li>
-            <li class="mr-3"><a href="#">Desert</a></li>
+            <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Mer&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Compagnes&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Ile&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Desert&nbsp;&nbsp;&nbsp;</a></li>
           </ul>
         </div>
         <div class="voir d-flex justify-content-end">
-          <a [routerLink]="['/offre-maison']" class="vp align-self-center text-white"style="border: none; text-decoration: underline; margin-top: 0; font-size: small;">VOIR PLUS</a>
+          <a href="#" class="vp align-self-center text-white"style="border: none; text-decoration: underline; margin-top: 0; font-size: medium;">VOIR TOUT</a>
         </div>
       </div>
     </div>
   </section>
-</div>
-<div class="container">
+  </div>
+  <div class="container d-block">
   <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
     <!-- Indicators/dots -->
-    <div class="carousel-indicators" style="margin-bottom: -2rem;">
+    <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"></button>
       <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></button>
       <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></button>
@@ -44,26 +45,27 @@
           <div class="card-body">
             <div class="d-flex justify-content-between align-items-start mb-3 small">
               <div>
-                <h5 class="card-title small" style="color: #675599; font-weight: bold;">{{ card.title }}</h5>
+                <h5 class="card-title small" style="color: #605697; font-weight: bold;font-family: Calibri;font-size: medium">{{ card.title }}</h5>
                 <div class="d-flex flex-column align-items-center">
                   <div class="adresse mb-2 ">
                     <i class="icofont-location-pin"></i>
-                    <span class="small"style="color: #675599;">Adresse</span>
+                    <span class="small"style="color: #605697;">Adresse</span>
                   </div>
                   <div class="d-flex align-items-center mb-2 nbre">
                     <i class="icofont-ui-user mr-2 small"></i>
-                    <span class="small" style="color: #675599;" >nbre Personnes</span>
+                    <span class="small" style="color: #605697;" >nbre Personnes</span>
                   </div>
                   
-                  <div class=" type">
-                    <i class="icofont-pay"></i>
-                    <span class=""style="color: #675599;">Type paiement</span>
-                  </div>
+                 
                 </div>
               </div>
               <div class="text-right">
                 <h5 class="card-title"><i class="icofont-sale-discount mr-2 small"></i>Offre</h5>
-                <p class="card-text small"style="color: #675599;font-weight: bold;">Prix : 10$</p>
+                <p class="card-text small"style="color: #F29C2C;font-weight: bold;">Prix : 10$</p>
+                <div class=" type">
+                  <i class="icofont-pay"></i>
+                  <span class=""style="color: #F29C2C;">Type paiement</span>
+                </div>
                 <a href="#" class="btn btn-primary">VOIR PLUS</a>
               </div>
             </div>
@@ -83,4 +85,4 @@
 
   </div>
 
-</div>
+  </div>

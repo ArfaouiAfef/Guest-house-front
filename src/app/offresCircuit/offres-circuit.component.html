@@ -1,10 +1,11 @@
-<div class="container">
-    <div>
+<div class="offreCircuit">
+  <div class="container">
+    <div> 
         <div class="row">
             <div class="col-md-12 d-flex flex-column align-items-center justify-content-center">
 
                 <div class="section_title">
-                    <h4 style="color: #675599; font-weight: bold;">OFFRES CIRCUIT LEADER</h4>
+                    <h4 style="color: #675599; font-weight: bold;font-size: 2em;font-family: Calibri;">OFFRES CIRCUIT LEADER</h4>
                 </div>
 
             </div>
@@ -14,10 +15,10 @@
             <div class="col-md-12 d-flex flex-column align-items-center justify-content-center">
 
                 <ul class="section-offres d-flex text-center">
-                    <li class="mr-3"><a href="#">National</a></li>
-                    <li class="mr-3"><a href="#">Accompagnement sahrin</a></li>
-                    <li class="mr-3"><a href="#">Local</a></li>
-                    <li class="mr-3"><a href="#">Tour de l'Ile</a></li>
+                    <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;National&nbsp;&nbsp;&nbsp;</a></li>
+                    <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Accompagnement sahrin&nbsp;&nbsp;&nbsp;</a></li>
+                    <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Local&nbsp;&nbsp;&nbsp;</a></li>
+                    <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Tour de l'Ile&nbsp;&nbsp;&nbsp;</a></li>
                 </ul>
 
             </div>
@@ -35,7 +36,7 @@
                 
         </div>
         <div class="voir d-flex justify-content-end">
-          <a href="#" class="vp align-self-center text-white" style="border: none; text-decoration: underline; margin-top: 0; font-size: x-small;">VOIR PLUS</a>
+          <a href="#" class="vp align-self-center text-white" style="border: none; text-decoration: underline; margin-top: 0; font-size: medium;">VOIR PLUS</a>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" *ngFor="let card of cards; let i=index" [class.active]="i===0">
@@ -47,7 +48,7 @@
                 <div class="card-body">
                   <div class="d-flex justify-content-between align-items-start mb-3 small">
                     <div>
-                      <h5 class="card-title small" style="color: #675599; font-weight: bold;">{{ card.title }}</h5>
+                      <h5 class="card-title small" style="color: #675599; font-weight: bold;font-family: Calibri;font-size: medium">{{ card.title }}</h5>
                       <div class="d-flex flex-column align-items-center">
                         <div class="adresse mb-2 ">
                           <i class="icofont-location-pin"></i>
@@ -60,7 +61,7 @@
                           <span class="small"style="color: #675599;">Difficulté</span>
                         </div>
                         
-                        <div class=" type">
+                        <div class=" typeC">
                           <i class="icofont-sort"></i>
                           <span class=""style="color: #675599;">Type</span>
                         </div>
@@ -68,8 +69,11 @@
                     </div>
                     <div class="text-right">
                       <h5 class="card-title"><i class="icofont-sale-discount mr-2 small"></i>Offre</h5>
-                      <p class="card-text small"style="color: #675599;font-weight: bold;">Prix : 10$</p>
-                     
+                      <p class="card-text small"style="color: #F29C2C;font-weight: bold;">Prix : 10$</p>
+                      <div class=" type">
+                        <i class="icofont-pay"></i>
+                        <span class=""style="color: #F29C2C;">Type paiement</span>
+                      </div>
                       <a href="#" class="btn btn-primary">VOIR PLUS</a>
                     </div>
                   </div>
@@ -89,12 +93,12 @@
             <span class="visually-hidden">Next</span>
         </button>
         <div class="voir d-flex justify-content-end">
-          <a [routerLink]="['/offre-circuit']" class="vp align-self-center text-white" style="border: none; text-decoration: underline; margin-top: 0;">VOIR PLUS</a>
+          <a href="#" class="vp align-self-center text-white" style="border: none; text-decoration: underline; margin-top: 0;">VOIR TOUT</a>
         </div>
     </div>
    
     <div class="direction">
-      <img src="../../assets/images/icons8-direction-100.png" class="img-direction" alt="icon de direction">
+      <img src="../../assets/images/icon-direction.png" class="img-direction" alt="icon de direction">
     </div>
 </div>
-  
+</div> 

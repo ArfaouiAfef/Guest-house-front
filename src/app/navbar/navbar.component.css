@@ -21,7 +21,7 @@
     .main_nav ul li a {
         /* font-size: 16px; */
         /* font-weight: 500; */
-        color: #675599;
+        color: #605697;
         /* line-height: 37px; */
         /* white-space: nowrap; */
     }
@@ -117,13 +117,13 @@
   }
   /* Style pour l'apparence du bouton bascule lorsqu'il est activé */
   input:checked + .slider {
-    background-color: #675599;
+    background-color: #605697;
     /*background-image: url(../../assets/images/icons8-menu-20.png);*/
     
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #675599;
+    box-shadow: 0 0 1px #605697;
     
   }
   /* Style pour inverser la position du symbole de menu lorsque le bouton bascule est activé */

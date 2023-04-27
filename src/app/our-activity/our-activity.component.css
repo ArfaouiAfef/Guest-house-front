@@ -10,11 +10,11 @@ align-items: center!important;
   margin-right: 60px;
 }
 .section-offres li a {
-  color: #675599;
+  color: #605697;
 }
 
 h5 {
-  color: #675599;
+  color: #605697;
 }
 .section-offres li a{
   background-color: #f3eded;
@@ -26,7 +26,7 @@ h5 {
   padding-right: 10px;
 }
 .section-offres li:hover a:hover {
-  border-color: #675599;
+  border-color: #605697;
 }
 
 
@@ -126,13 +126,13 @@ img {
   border-radius: 50%;
   margin-right: 5px;
   margin-left: 5px;
-  border:2px solid #675599;
+  border:2px solid #605697;
   background-color: #fff;
   cursor: pointer;
 }
 .carousel-indicators button.active {
-  background-color: #675599;
-  border: 2px solid #675599;
+  background-color: #605697;
+  border: 2px solid #605697;
 }
 
 .carousel-indicators button {
@@ -152,16 +152,16 @@ margin-left: -58%;
 }  
 .btn-primary {
 color: #fff;
-padding-bottom: 0;
-padding-top: 0;
-background-color: #675599;
-border-color: #675599;
+padding-bottom: 4px;
+padding-top: 4px;
+background-color: #605697;
+border-color: #605697;
 margin-top: 55%;
 }  
-.btn-primary:active{
-color: fff;
-background-color: #675599;
-border-color: #675599;
+.btn-primary::before{
+color: #f3eca9;
+background-color: #efeef5;
+border-color: #605697;
 }
 p{
 margin-top: 0px;

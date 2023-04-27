@@ -36,13 +36,13 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot([
+   /*  RouterModule.forRoot([
       {path:'nos-maison',component:AppComponent},
       {path:'nos-circuit',component:AppComponent},
       {path:'offre-maison',component:AppComponent},
       {path:'offre-circuit',component:AppComponent},
       {path:'our-activity',component:AppComponent}
-    ])
+    ]) */
       
     
   ],

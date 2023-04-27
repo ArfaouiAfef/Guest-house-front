@@ -2,11 +2,11 @@
     <div class="col-md-12 d-flex flex-column align-items-center justify-content-center">
 
         <ul class="section-offres d-flex text-center">
-            <li class="mr-3 my-2"><a href="#">NATIONAL</a></li>
-            <li class="mr-3 my-2"><a href="#">TOUR DE L'ILE</a></li>
-            <li class="mr-3" style="font-weight: bold;"><a href="#">NOS CIRCUIT LEADER</a></li>
-            <li class="mr-3 my-2"><a href="#">ACCOMPAGNATEUR</a></li>
-            <li class="mr-3 my-2"><a href="#">SAHRIN</a></li>
+            <li class="mr-3 my-2"style="font-weight: bold;"><a href="#">NATIONAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="mr-3 my-2"style="font-weight: bold;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOUR DE L'ILE</a></li>
+            <li class="mr-3" style="font-weight: bold;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOS CIRCUIT LEADER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="mr-3 my-2"style="font-weight: bold;"><a href="#">ACCOMPAGNATEUR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="mr-3 my-2"style="font-weight: bold;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SAHRIN</a></li>
         </ul>
 
     </div>
@@ -31,7 +31,7 @@
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-start mb-3 small">
                 <div>
-                  <h5 class="card-title small" style="color: #675599; font-weight: bold;">{{ card.title }}</h5>
+                  <h5 class="card-title small" style="color: #675599; font-weight: bold;font-family: Calibri;font-size: medium">{{ card.title }}</h5>
                   <div class="d-flex flex-column align-items-center">
                     <div class="adresse mb-2 ">
                       <i class="icofont-location-pin"></i>
@@ -44,14 +44,18 @@
                       <span class="small"style="color: #675599;">Difficulté</span>
                     </div>
                     
-                    <div class=" type">
+                    <div class=" typeC">
                       <i class="icofont-sort"></i>
                       <span class=""style="color: #675599;">Type</span>
                     </div>
                   </div>
                 </div>
                 <div class="text-right">
-                  <p class="card-text small"style="color: #675599;font-weight: bold;">Prix : 10$</p>
+                  <p class="card-text mr-2 small"style="color: #F29C2C;font-weight: bold;">Prix : 10$</p>
+                  <div class=" type">
+                    <i class="icofont-pay"></i>
+                    <span class=""style="color: #F29C2C;">Type paiement</span>
+                  </div>
                   <a href="#" class="btn btn-primary">VOIR PLUS</a>
                 </div>
               </div>
@@ -71,7 +75,7 @@
         <span class="visually-hidden">Next</span>
     </button>
     <div class="voir d-flex justify-content-end">
-      <a [routerLink]="['/nos-circuit']" class="vp align-self-center" style="color: #675599;border: none; text-decoration: underline; margin-bottom: 16px;font-size: small;">VOIR PLUS</a>
+      <a href="#" class="vp align-self-center" style="color: #675599;border: none; text-decoration: underline; margin-bottom: 16px;font-size: medium;">VOIR PLUS</a>
     </div>
 </div>
 </div>

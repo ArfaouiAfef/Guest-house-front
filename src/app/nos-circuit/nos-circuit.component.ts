@@ -14,12 +14,12 @@ export class NosCircuitComponent {
       this.favorites[card.id] = false;
     });
   }
-    cards = [
-      {id: 1, title: 'LEADER NAME', imageUrl: 'assets/images/house2.jpg', description: 'Some text', liked: false},
-      {id: 2, title: 'LEADER NAME', imageUrl: 'assets/images/house3.jpg', description: 'Some text', liked: false},
-      {id: 3, title: 'LEADER NAME', imageUrl: 'assets/images/house4.jpg', description: 'Some text', liked: false},
-      {id: 4, title: 'LEADER NAME', imageUrl: 'assets/images/house5.jpg', description: 'Some text', liked: false}
-    ];
+  cards = [
+    {id: 1, title: 'LEADER NAME', imageUrl: 'assets/images/circuit1.jpg', description: 'Some text', liked: false},
+    {id: 2, title: 'LEADER NAME', imageUrl: 'assets/images/circuit2.jpg', description: 'Some text', liked: false},
+    {id: 3, title: 'LEADER NAME', imageUrl: 'assets/images/circuit3.png', description: 'Some text', liked: false},
+    {id: 4, title: 'LEADER NAME', imageUrl: 'assets/images/circuit4.jpg', description: 'Some text', liked: false}
+  ];
     
   
     toggleFavorite(cardId: number) {

@@ -3,27 +3,32 @@
     background-color: rgb(238, 150, 61);
 } */
 .offres-maison {
-  margin-bottom: -18px;
+  margin-bottom: -12px;
+	width: 100%;
+	position: relative;
+	display: block;
+	clear: both;
+	
 }
 .voir a {
   margin-top: 10px;
 }
 .section_title{
-  margin-top: -12%;
+  margin-top: 0%;
 }
 .mr_3{margin-right: 10px}
 .container ul{
-    margin-top: -25px;
+    margin-top: 0px;
     margin-bottom: 2%;  
 }
 .container ul li.active, .container ul li:hover {
     background: white;
     border-radius: 4px;
-    color:#FBA80A; 
+    color:#F29C2C; 
 }
 .container ul li.active {
     background-color: white;
-    color: #FBA80A; /* définit la couleur du texte en orange pour l'état actif */
+    color: #F29C2C; /* définit la couleur du texte en orange pour l'état actif */
     border-radius: 4px;
   }
   .section-offres li {
@@ -32,13 +37,13 @@
 a:hover, a:visited, a:active, a:link {
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
-    -webkit-text-shadow: #FBA80A 0px;
+    -webkit-text-shadow: #F29C2C 0px;
     padding: 8px;
     padding-bottom: -1px;
     padding-top: 2px;
     border-radius: 6px;
     border:1px solid white;
-    text-shadow: #FBA80A 0 0 1px;
+    text-shadow: #F29C2C 0 0 1px;
 }
 
 a {
@@ -48,7 +53,7 @@ a {
     -webkit-text-decoration-skip: unset;
 }
 a:hover {
-    color: #FBA80A;
+    color: #F29C2C;
     
 }
 .section_title_container {
@@ -106,6 +111,7 @@ a:hover {
   }
   .card {
     margin: 0 0.5em;
+    background-color: #fbf7f7;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
 
@@ -153,27 +159,27 @@ a:hover {
     border-radius: 50%;
     margin-right: 5px;
     margin-left: 5px;
-    border:2px solid #675599;
+    border:2px solid #605697;
     background-color: #fff;
     cursor: pointer;
   }
   .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: 10px;
+    bottom: -40px;
     left: 0;
     z-index: 2;
     display: flex;
     justify-content: center;
     padding: 0;
     margin-right: 15%;
-    margin-bottom: 1rem;
+    
     margin-left: 15%;
     list-style: none;
 }
   .carousel-indicators button.active {
-    background-color: #675599;
-    border: 2px solid #675599;
+    background-color: #605697;
+    border: 2px solid #605697;
   }
   
   .carousel-indicators button {
@@ -192,22 +198,22 @@ a:hover {
     background-color: red;
     color: white;
     border-radius: 50%;
-    padding: 0.3rem;
+    padding: 0.6rem;
     padding-left: 0%;
-    padding-right: 1%;
-    font-size: 0.5rem;;
+    padding-right: 0%;
+    font-size: 0.7rem;;
     font-weight: normal;
-    margin-bottom: 110px;
+    margin-bottom: 105px;
     margin-right: -24px;
     z-index: 1;
   }
+  .icofont-sale-discount:before {
+    content: "\efdd";
+    color: white;
+}
   .nbre {
     margin-bottom: 0.5rem!important;
     margin-left: 0%;
-}
-.type {
-  margin-bottom: 0.5rem!important;
-  margin-left: -10%;
 }
 .adresse {
   margin-bottom: 0.5rem!important;
@@ -215,18 +221,26 @@ a:hover {
 }  
 .btn-primary {
   color: #fff;
-  background-color: #675599;
-  border-color: #675599;
+  background-color: #605697;
+  border-color: #605697;
   margin-top: 20%;
+  margin-left: 35px;
+  padding-bottom: 4px;
+padding-top: 4px;
 }  
 .btn-primary:active{
-  color: #675599;
+  color: #605697;
   background-color: FFFFFF;
   border-color: FFF;
   margin-top: 20%;
 
 }
-p{
-  margin-top: 40px;
+p {
+  margin-top: 0px;
   margin-left: 35px;
+}
+.type{
+  margin-top:  0.8rem;
+  margin-left: 33px;
+  
 }

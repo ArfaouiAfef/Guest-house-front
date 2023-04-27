@@ -1,6 +1,6 @@
 
 .section-offres li {
-  margin-right: 90px;
+  margin-right: 0px;
   display: inline-block;
   
 }
@@ -19,14 +19,14 @@
   display: block;
 }
 .section-offres li:active {
-  border-bottom-color: #FBA80A;
+  border-bottom-color: #F29C2C;
 }
 .section-offres li:hover,
 .section-offres li:focus {
-  border-bottom-color: #FBA80A;
+  border-bottom-color: #F29C2C;
 }
 .section-offres li a {
-  color: #675599;
+  color: #605697;
 }
 /*********************************/
 /* hr {
@@ -142,7 +142,7 @@ img {
   border-radius: 50%;
   margin-right: 5px;
   margin-left: 5px;
-  border:2px solid #675599;
+  border:2px solid #605697;
   background-color: #fff;
   cursor: pointer;
 }
@@ -161,8 +161,8 @@ img {
   list-style: none;
 }
 .carousel-indicators button.active {
-  background-color: #675599;
-  border: 2px solid #675599;
+  background-color: #605697;
+  border: 2px solid #605697;
 }
 
 .carousel-indicators button {
@@ -171,32 +171,35 @@ img {
 
 .nbre {
   margin-bottom: 0.5rem!important;
-  margin-left: 0%;
+  margin-left: -30%;
 }
-.type {
-margin-bottom: 0.5rem!important;
-margin-left: -10%;
-}
+
 .adresse {
 margin-bottom: 0.5rem!important;
-margin-left: -44%;
+margin-left: -57%;
 }  
 .btn-primary {
 color: #fff;
-padding-bottom: 0;
-padding-top: 0;
-background-color: #675599;
-border-color: #675599;
-margin-top: 55%;
-}  
-.btn-primary:active{
-color: fff;
-background-color: #675599;
-border-color: #675599;
-}
-p{
-margin-top: 0px;
+padding-bottom: 4px;
+padding-top: 4px;
+background-color: #605697;
+border-color: #605697;
+margin-top: 20%;
 margin-left: 35px;
+}  
+.btn-primary:active :hover{
+color: #605697;
+background-color: #fff;
+border-color: #605697;
+}
+p {
+  margin-top: 0px;
+  margin-left: 35px;
+}
+.type{
+  margin-top:  0.8rem;
+  margin-left: 33px;
+  
 }
 
 

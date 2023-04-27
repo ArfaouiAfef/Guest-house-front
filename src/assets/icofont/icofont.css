@@ -26,13 +26,16 @@ url("./fonts/icofont.woff") format("woff");
   text-transform: none;
   white-space: nowrap;
   word-wrap: normal;
+  color: #605697;
   direction: ltr;
   line-height: 1;
 /* Better Font Rendering =========== */
   -webkit-font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
 }
-
+.icofont{
+  color: #605697;
+}
 .icofont-angry-monster:before
 {
   content: "\e800";

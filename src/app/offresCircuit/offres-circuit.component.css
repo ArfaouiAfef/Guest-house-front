@@ -18,20 +18,22 @@
 .section_title {
   margin-top: 0%;
 }
-
+h4{
+  font-family: "Calibri", sans-serif;
+}
 .mr_3 {
   margin-right: 10px
 }
 
 .container ul li.active,
 .container ul li:hover {
-  background: #675599;
+  background: #605697;
   border-radius: 4px;
   color: #fff;
 }
 
 .container ul li.active {
-  background-color: #675599;
+  background-color: #605697;
   color: #fff;
   /* définit la couleur du texte en orange pour l'état actif */
   border-radius: 4px;
@@ -52,12 +54,12 @@ a:link {
   padding-bottom: -1px;
   padding-top: 2px;
   border-radius: 6px;
-  border: 1px solid #675599;
+  border: 1px solid #605697;
   text-shadow: #fff 0 0 1px;
 }
 
 a {
-  color: #675599;
+  color: #605697;
   text-decoration: none;
   background-color: inherit;
   -webkit-text-decoration-skip: unset;
@@ -132,6 +134,7 @@ img {
 
 .card {
   margin: 0 0.5em;
+  background-color: #fbf7f7;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
 
@@ -189,7 +192,7 @@ img {
   margin-right: 5px;
   margin-left: 5px;
   border:2px solid #ffffff;
-  background-color: #675599;
+  background-color: #605697;
   cursor: pointer;
 }
 .carousel-indicators {
@@ -212,7 +215,7 @@ img {
 }
 
 .carousel-indicators button {
-  background-color: #675599;
+  background-color: #605697;
 }
 
 .small-icon {
@@ -229,10 +232,13 @@ img {
   padding: 8px; /* ajoute de l'espace entre la bordure et l'icône */
 }
 .img-direction{
-  object-fit: none;
-  width: 10%;
+  object-fit: contain;
+  width: 96%;
+  padding-top: 32px;
+  margin-left: -458px;
   margin-bottom: 0;
-  margin-top: -18px;
+  margin-top: -105px;
+ 
 }
 .card-body .text-right h5.card-title {
   position: absolute;
@@ -241,32 +247,39 @@ img {
   background-color: red;
   color: white;
   border-radius: 50%;
-  padding: 0.3rem;
+  padding: 0.6rem;
   padding-left: 0%;
-  padding-right: 1%;
-  font-size: 0.5rem;;
+  padding-right: 0%;
+  font-size: 0.7rem;;
   font-weight: normal;
-  margin-bottom: 110px;
+  margin-bottom: 105px;
   margin-right: -24px;
   z-index: 1;
 }
+.icofont-sale-discount:before {
+  content: "\efdd";
+  color: white;
+}
 .btn-primary {
-  color: #675599;
+  color: #605697;
   background-color: fff;
-  border-color: #675599;
+  border-color: #605697;
   margin-top: 20%;
+  margin-left: 35px;
+  padding-bottom: 4px;
+padding-top: 4px;
 }  
 .btn-primary:active :hover{
   color: fff;
-  background-color: #675599;
-  border-color: #675599;
-  margin-top: 20%;
+  background-color: #605697;
+  border-color: #605697;
+  
 }
 .nbre {
   margin-bottom: 0.5rem!important;
   margin-left: 0%;
 }
-.type {
+.typeC {
 margin-bottom: 0.5rem!important;
 margin-left: -72%;
 }
@@ -278,7 +291,17 @@ margin-left: -57%;
   margin-right: 0;
   margin-left: 40px;
 }
-p{
-  margin-top: 40px;
+p {
+  margin-top: 0px;
   margin-left: 35px;
+}
+.type{
+  margin-top:  0.8rem;
+  margin-left: 33px;
+  
+}
+.btn-primary:active :hover {
+  color: #fff;
+  background-color: #1e1f22;
+  border-color: #26282b;
 }

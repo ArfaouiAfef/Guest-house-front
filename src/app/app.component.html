@@ -20,7 +20,7 @@
 					</div>
 				</div>
 				  <div class="carousel-item c-item">
-					<img src="../../assets/images/home2.jpg" class="d-block w-100 c-img" alt="slide 2">
+					<img src="../../assets/images/house1.jpg" class="d-block w-100 c-img" alt="slide 2">
 					<div class="carousel-caption top-0 mt-4 d-none d-md-block">
 						<h2 class="text-heading text-white mt-5 fs-3">LET'S</h2>
 						<h2 class="sub-heading text-white m2">MAKE YOUR</h2>
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 				  <div class="carousel-item c-item">
-					<img src="../../assets/images/home3.jpg" class="d-block w-100 c-img" alt="slide 3">
+					<img src="../../assets/images/house8.jpg" class="d-block w-100 c-img" alt="slide 3">
 					<div class="carousel-caption top-0 mt-4 d-none d-md-block">
 						<h2 class="text-heading text-white mt-5 fs-3">LET'S</h2>
 						<h2 class="sub-heading text-white m2">MAKE YOUR</h2>
@@ -57,12 +57,12 @@
 					<div class="search_form_container">
 						<ul class="nav nav-tabs" role="tablist" style="position:relative">
 							<li role="bravo_hotel m2">
-								<a [routerLink]="['/nos-maison']" class=" active " aria-controls="maison-dhote" role="tab"data-toggle="tab">
-									<i class="icofont-building-alt" style="margin-left: 5px;"></i>Maison D'hote</a>
+								<a href="#" class=" active " aria-controls="maison-dhote" role="tab"data-toggle="tab">
+									<i class="icofont-building-alt" style="margin-left: 5px;"></i>&nbsp;&nbsp;&nbsp;Maison D'hote&nbsp;&nbsp;&nbsp;</a>
 							</li>
 							<li role="bravo_car">
-								<a [routerLink]="['/nos-circuit']" class="" aria-controls="circuit-leader" role="tab"data-toggle="tab">
-									<i class="icofont-island" style="margin-left: 5px;margin-bottom: 5px;"></i>Circuit Leader</a>
+								<a href="#" class="" aria-controls="circuit-leader" role="tab"data-toggle="tab">
+									<i class="icofont-island" style="margin-left: 5px;"></i>&nbsp;&nbsp;&nbsp;Circuit Leader&nbsp;&nbsp;&nbsp;</a>
 							</li>
 						</ul>
 						<form action="#" id="search_form" class="search_form" style="justify-items: center;">
@@ -80,32 +80,29 @@
 									<li>
 										<label for="">Date de départ</label>
 										<div class="search_input_container">
-											<input type="date" class="search_input m2" name="date_depart">
+											<input type="date" 
+											
+											style="text-align: center;"
+											class="search_input m2" name="date_depart">
 
 										</div>
 									</li>
 									<li>
 										<label for="">Date d'Arrivée</label>
 										<div class="search_input_container">
-											<input type="date" class="search_input m2" name="arrivee">
+											<input type="date" style="text-align: center;" class="search_input m2" name="arrivee">
 										</div>
 									</li>
 									<li>
 										<label for="">Personnes</label>
 										<div class="search_dropdown d-flex flex-row align-items-center justify-content-start"
-											style="width: 100%;">
-											<select name="personnes" id="personnes_select">
-												<option value="1">1 personne</option>
-												<option value="2">2 personnes</option>
-												<option value="3">3 personnes</option>
-												<option value="4">4 personnes</option>
-												<option value="5">5 personnes</option>
-											</select>
+											style="width: 100%;text-align: center;">
+											<input type="text" class="search_input" name="personnes">
 											<span class="search_icon"><i class="icofont-people"></i></span>
 										</div>
 									</li>
 								</ul>
-								<button class="search_button"style="background-color:#FBA80A ; margin: auto; margin-bottom: 0%; justify-items: center;">Rechercher</button>
+								<button class="search_button"style="background-color:#FBA80A ; margin: auto; margin-bottom: 1.4%; justify-items: center;">Rechercher</button>
 							</div>
 						</form>
 					</div>

@@ -39,6 +39,12 @@ export class OffresMaisonComponent {
       title: 'HOSTEL NAME',
       imageUrl: 'assets/images/house5.jpg',
       liked: false
+    },
+    {
+      id: 5,
+      title: 'HOSTEL NAME',
+      imageUrl: 'assets/images/house6.jpg',
+      liked: false
     }
   ];
   

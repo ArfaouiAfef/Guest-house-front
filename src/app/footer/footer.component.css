@@ -1,11 +1,11 @@
 footer {
-    background-color:#FBA80A;
+    background-color:#F29C2C;
     margin-top: 2%;
   }
  
   footer ul {
     list-style: none;
-    color: #675599;
+    color: #605697;
     padding: 0;
     margin: 0;
   }
@@ -17,7 +17,7 @@ footer {
   footer p {
     text-align: center;
     font-size: 14px;
-    color: #676775;
+    color: #605697;
     margin-top: 30px;
   }
   .footer {
@@ -38,4 +38,8 @@ footer {
 .icofont-twitter:before {
   content: "\ed7a";
   margin-inline: 4px;
+}
+.icon{
+  margin-top: 38px;
+  margin-right: -93px;
 }

@@ -1,15 +1,15 @@
 <div class="container ">
     <div class="row">
-        <h5 class="text-center"><a style="font-weight: bold; color: #675599;" href="">NOS ACTIVITE ET ATELIER</a></h5>
+        <h5 class="text-center"><a style="font-weight: bold; color: #675599;font-size: 2em;font-family: Calibri;" href="">NOS ACTIVITE ET ATELIER</a></h5>
     </div>
     <div class="row">
         <div class="col-md-12 d-flex flex-column align-items-center justify-content-center">
 
             <ul class="section-offres d-flex text-center">
-                <li class="mr-3"><a href="#">Culturel</a></li>
-                <li class="mr-3"><a href="#">Sportif</a></li>
-                <li class="mr-3"><a href="#">Avenir</a></li>
-                <li class="mr-3"><a href="#">Historique</a></li>
+                <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Culturel&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Sportif&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Avenir&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="mr-3"><a href="#">&nbsp;&nbsp;&nbsp;Historique&nbsp;&nbsp;&nbsp;</a></li>
             </ul>
 
         </div>
@@ -23,9 +23,7 @@
           <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></button>
               
       </div>
-      <div class="voir d-flex justify-content-end">
-        <a href="#" class="vp align-self-center text-white" style="color: #675599;border: none; text-decoration: underline; margin-top: 0; font-size: x-small;">VOIR PLUS</a>
-      </div>
+      
       <div class="carousel-inner">
           <div class="carousel-item active" *ngFor="let card of cards; let i=index" [class.active]="i===0">
             <div class="card position-relative">
@@ -36,7 +34,7 @@
               <div class="card-body">
                 <div class="d-flex justify-content-between align-items-start mb-3 small">
                   <div>
-                    <h5 class="card-title small" style="color: #675599; font-weight: bold;">{{ card.title }}</h5>
+                    <h5 class="card-title" style="color: #675599; font-weight: bold;font-family: Calibri;font-size: medium;">{{ card.title }}</h5>
                     <div class="d-flex flex-column align-items-center">
                       <div class="adresse mb-2 adresse">
                         <i class="icofont-location-pin"></i>
@@ -56,7 +54,7 @@
                     </div>
                   </div>
                   <div class="text-right">
-                    <p class="card-text small"style="color: #675599;font-weight: bold;">Prix : 10$</p>
+                    <p class="card-text mr-2 small"style="color: #F29C2C;font-weight: bold;">Prix : 10$</p>
                     <a href="#" class="btn btn-primary">VOIR PLUS</a>
                   </div>
                 </div>
@@ -76,7 +74,7 @@
           <span class="visually-hidden">Next</span>
       </button>
       <div class="voir d-flex justify-content-end">
-        <a href="#" class="vp align-self-center" style="color: #675599;border: none; text-decoration: underline; margin-top: 0;">VOIR PLUS</a>
+        <a href="#" class="vp align-self-center" style="color: #675599;border: none; text-decoration: underline; margin-top: 0;font-size: medium;">VOIR TOUT</a>
       </div>
   </div>
 
