@@ -15,7 +15,7 @@ footer {
   }
   
   footer p {
-    text-align: center;
+    /* text-align: center; */
     font-size: 14px;
     color: #605697;
     margin-top: 30px;
@@ -23,10 +23,11 @@ footer {
   .footer {
     font-size: small;
   }
+  /*
   .footer li:nth-child(3) {
     display: inline-block;
     margin-right: 20px;
-  }
+   }
   .icofont-facebook:before {
     content: "\ed37";
     margin-inline: 4px;
@@ -39,7 +40,10 @@ footer {
   content: "\ed7a";
   margin-inline: 4px;
 }
-.icon{
-  margin-top: 38px;
-  margin-right: -93px;
+ */
+ a, a:hover, a:visited, a:active, a:link {
+  text-decoration: none;
+  -webkit-font-smoothing:#f7c37e;
+  -webkit-text-shadow: rgba(244, 195, 109, 0.01) 0 0 1px;
+  text-shadow: rgba(244, 192, 124, 0.01) 0 0 1px;
 }

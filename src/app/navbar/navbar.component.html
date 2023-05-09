@@ -18,11 +18,13 @@
                     </nav>
                     <!--Toggle Switch-->
                     <div>
-                        <label class="switch" >
-                            <input type="checkbox" checked>
+                        <label class="switch">
+                            <input type="checkbox" [checked]="isChecked"  (click)="onCheckboxClick($event)">
                             <span class="slider round"></span>
                             <span class="menu-icon"></span>
                         </label>
+                        
+                        <!-- <button [routerLink]="isChecked ? '/connexion' : ''"></button> -->
                     </div>
                     <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
                 </div>

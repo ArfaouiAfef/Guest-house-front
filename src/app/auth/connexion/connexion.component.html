@@ -1,0 +1,33 @@
+<!-- Navbar -->
+
+
+<!-- Menu -->
+<div class="row" style="background-image: url('../../assets/images/home1.jpg'); background-size: cover; display: flex; justify-content: center; align-items: center;">
+    <div class="col-3" style="background-color:#605697;opacity: 0.8; min-height: 80vh; padding: 40px;margin-top: 5px; margin-bottom: 5px;">
+        <form action="">
+            <h5 style="color: white;">Connecter</h5>
+            <div class="inputs">
+               
+                <div class="m2" style="margin-bottom: 20px;">
+                    <input style="font-size: medium;" type="text" [(ngModel)]="form.email" name="email" placeholder="Email">
+                </div>
+                <div class="m2" style="margin-bottom: 20px;">
+                    <input style="font-size: medium;" type="text" [(ngModel)]="form.email" name="login" placeholder="Login">
+                </div>
+                <div class="m2" style="margin-bottom: 20px;">
+                    <input style="font-size: medium;" type="password" [(ngModel)]="form.password" name="password" placeholder="password">
+                </div>
+                
+            </div>
+        </form>
+        <div class="col-12">
+            
+            <p class="m2" style="color: white; margin-top: 10px;">Don't have an account?></p>
+            <p class="m2" style="color: white;"><a href="inscription">Sign Up</a></p>
+            <div class="m2" style="margin-bottom: 10px;">
+                <p class="light"><a style="color: white;" href="oublier-password">Forgot password?</a></p>
+            </div>
+            <button class="contact_button" style="font-size: smaller;" (click)="connexion()">Connecxion</button>
+        </div>
+    </div>
+</div>

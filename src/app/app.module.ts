@@ -9,12 +9,17 @@ import { OffresCircuitComponent } from './offresCircuit/offres-circuit.component
 import { NosMaisonComponent } from './nos-maison/nos-maison.component';
 import { NosCircuitComponent } from './nos-circuit/nos-circuit.component';
 import { OurActivityComponent } from './our-activity/our-activity.component';
-
-import { AuthService } from './services/auth.service';
-import { AuthComponent } from './auth/auth.component';
 import { RouterModule } from '@angular/router'
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
+import { FormsModule } from '@angular/forms';
+import { ConnexionComponent } from './auth/connexion/connexion.component';
+import { OublierPasswordComponent } from './auth/oublier-password/oublier-password.component';
+import { InscriptionComponent } from './auth/inscription/inscription.component';
+
+
+
+
 
 
 @NgModule({
@@ -27,14 +32,16 @@ import { HomeComponent } from './home/home.component';
     NosMaisonComponent,
     NosCircuitComponent,
     OurActivityComponent,
-    AuthComponent,
-    HomeComponent
-    
+    HomeComponent,
+    ConnexionComponent,
+    InscriptionComponent,
+    OublierPasswordComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserModule,
+    FormsModule,
     HttpClientModule,
    /*  RouterModule.forRoot([
       {path:'nos-maison',component:AppComponent},
@@ -46,7 +53,7 @@ import { HomeComponent } from './home/home.component';
       
     
   ],
-  providers: [AuthService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,84 @@
+
+<div class="row"
+	style="background-image: url('../../assets/images/home1.jpg'); background-size: cover; display: flex; justify-content: center; align-items: center;">
+	<div class="col-10 col-md-8 col-lg-6"
+		style="background-color:#605697;opacity: 0.8; min-height: 80vh; padding: 40px;margin-top: 5px; margin-bottom: 5px;">
+		<form action="">
+			<header>
+				<h5 style="color: white;">Formulaire d'inscription</h5>
+			</header>
+			<div class="inputs row mb-3">
+				<div class="col-12 col-md-4 m2" style="margin-bottom: 10px;">
+					<input style="font-size: medium;" type="text" [(ngModel)]="form.name" name="nom" placeholder="nom">
+				</div>
+				<div class="col-12 col-md-4 m2" style="margin-bottom: 10px;">
+					<input style="font-size: medium;" type="text" [(ngModel)]="form.prenom" name="prenom"
+						placeholder="prenom">
+				</div>
+				<div class="col-12 col-md-4 m2" style="margin-bottom: 10px;">
+					<input style="font-size: medium;" type="text" [(ngModel)]="form.adresse" name="adresse"
+						placeholder="adresse">
+				</div>
+				<div class="col-12 col-md-4 m2" style="margin-bottom: 10px;">
+					<input style="font-size: medium; padding-left: 56px; padding-right: 6px;" type="date" [(ngModel)]="form.dateDeNaissance" name="dateDeNaissance" placeholder="Date de naissance">
+				</div>
+				<div class="col-12 col-md-4 m2" style="margin-bottom: 10px;">
+					<input style="font-size: medium;" type="text" [(ngModel)]="form.identificateur"
+						name="identificateur" placeholder="identificateur">
+				</div>
+				<div class="col-12 col-md-4 m2" style="margin-bottom: 10px;">
+					<input style="font-size: medium;" type="text" [(ngModel)]="form.telephone" name="telephone"
+						placeholder="telephone">
+				</div>
+				<div class="col-12 col-md-4 m2" style="margin-bottom: 10px;">
+					<input style="font-size: medium;" type="text" [(ngModel)]="form.email" name="email"
+						placeholder="Email">
+				</div>
+				<div class="col-12 col-md-4 m2" style="margin-bottom: 10px;">
+					<input style="font-size: medium;" type="text" [(ngModel)]="form.email" name="login"
+						placeholder="Login">
+				</div>
+				<div class="col-12 col-md-4 m2" style="margin-bottom: 10px;">
+					<input style="font-size: medium;" type="password" [(ngModel)]="form.password" name="password"
+						placeholder="password">
+				</div>
+				<div class="col-12 col-md-4 m2" style="margin-bottom: 10px;">
+					<input style="font-size: medium;" type="password" [(ngModel)]="form.passwordConfirme" name="passwordConfirme"
+						placeholder="confirm password">
+				</div>
+				<div class="col-12 m2" style="margin-bottom: 10px; margin-top: 10px;">
+					<!-- <select><option>Client</option>
+					<option>Leader</option>
+					<option>Propriétaire maison d'hote</option>
+					</select> -->
+					<!--les roles dans un input-->
+					<div class="row">
+					<label class="dropdown-item"><input type="checkbox" name="roles[]" value="Role_CLIENT">
+						Client</label>
+					<label class="dropdown-item"><input type="checkbox" name="roles[]" value="ROLE_LEADER">
+						Leader</label>
+					<label class="dropdown-item"><input type="checkbox" name="roles[]" value="ROLE_PROPRIETAIRE_MAISON_HOTE">
+						Propriétaire maison d'hote</label>
+					</div>
+					<!-- <label style="font-size: medium; color: white;">Role:</label><br> -->
+					<div class="dropdown">
+						<!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Select roles
+						</button> -->
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</form>
+		<div>
+			
+			<p class="m2" style="color: white; margin-top: 10px;">Can You Connect Now</p>
+			<p class="m2" style="color: white;"><a href="connexion">Sign In</a></p>
+			<div style="display: flex; justify-content: center; text-align: center;">
+				<button class="contact_button" style="font-size: smaller;" (click)="enregistrer()">Enregistrer</button>
+			</div>
+		</div>

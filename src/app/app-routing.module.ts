@@ -8,6 +8,12 @@ import { NosCircuitComponent } from './nos-circuit/nos-circuit.component';
 import { OurActivityComponent } from './our-activity/our-activity.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { ConnexionComponent } from './auth/connexion/connexion.component';
+import { InscriptionComponent } from './auth/inscription/inscription.component';
+import { OublierPasswordComponent } from './auth/oublier-password/oublier-password.component';
+
+
+
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
@@ -17,7 +23,10 @@ const routes: Routes = [
   {path:'nos-circuit', component:NosCircuitComponent},
   {path:'our-activity', component:OurActivityComponent},
   {path:'navbar', component:NavbarComponent},
-  {path:'footer', component:FooterComponent}
+  {path:'footer', component:FooterComponent},
+  {path:'connexion', component:ConnexionComponent},
+  {path:'inscription', component:InscriptionComponent},
+  {path:'oublier-password', component:OublierPasswordComponent}
 ];
 
 @NgModule({

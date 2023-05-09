@@ -1,0 +1,14 @@
+.contact_button{
+    position: relative;
+   
+    background: #F29C2C;
+    color: #ffffff;
+    margin-left: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 105px;
+    height: 46px;
+}
+
