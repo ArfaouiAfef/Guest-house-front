@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ConnexionComponent } from './auth/connexion/connexion.component';
 import { InscriptionComponent } from './auth/inscription/inscription.component';
 import { OublierPasswordComponent } from './auth/oublier-password/oublier-password.component';
+import { CardHomeComponent } from './card-home/card-home.component';
 
 
 
@@ -26,7 +27,8 @@ const routes: Routes = [
   {path:'footer', component:FooterComponent},
   {path:'connexion', component:ConnexionComponent},
   {path:'inscription', component:InscriptionComponent},
-  {path:'oublier-password', component:OublierPasswordComponent}
+  {path:'oublier-password', component:OublierPasswordComponent},
+  {path:'card-home', component:CardHomeComponent}
 ];
 
 @NgModule({

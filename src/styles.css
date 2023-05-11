@@ -1,1 +1,155 @@
 /* You can add global styles to this file, and also import other style files */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    z-index: 100;
+    border-bottom: solid 2px #c5c1c1;
+    }
+    /*logo*/
+    img {
+        vertical-align: initial;
+        
+    }
+
+    /*main navbar*/
+    .main_nav ul li.active, .main_nav ul li:hover {
+        background: #e9ecef;
+    }
+
+    .main_nav ul li a {
+        /* font-size: 16px; */
+        /* font-weight: 500; */
+        color: #605697;
+        /* line-height: 37px; */
+        /* white-space: nowrap; */
+    }
+    /*Toggle Switch*/
+  
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 68px;
+    height: 35px;
+    float:right;
+   
+  }
+  .menu-icon{
+    position: relative;
+    display: inline-block;
+    width: 68px;
+    height: 35px;
+    float:left;
+   
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+   /* background-image: url(../../assets/images/icons8-menu-24.png);*/
+    
+  background-position: center center;
+   
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .menu-icon {
+    content: "";
+    width: 20px;
+    height: 4px;
+    background-color:#ffffff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    transition: transform .4s;
+    transform: translateX(33px);
+  }
+  
+  .menu-icon::before {
+    content: "";
+    width: 20px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    
+  }
+  
+  .menu-icon::after {
+    content: "";
+    width: 20px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 0;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 33px;
+    width: 33px;
+    left: 7px;
+    bottom: 1px;
+    background-image: url(assets/images/icon-out.png);
+    background-size: cover;
+  background-position: center center;
+    background-color: white;
+   
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  /* Style pour l'apparence du bouton bascule lorsqu'il est activé */
+  input:checked + .slider {
+    background-color: #605697;
+    /*background-image: url(../../assets/images/icons8-menu-20.png);*/
+    
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #605697;
+    
+  }
+  /* Style pour inverser la position du symbole de menu lorsque le bouton bascule est activé */
+  input:checked + .slider + .menu-icon {
+    transform: translateY(-50%)  translateX(3px);
+    /*left: auto;*/
+
+    right: 8px;
+   
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+/*end Toggle Switch*/
+/*end main navbar*/

@@ -46,28 +46,46 @@
 					<input style="font-size: medium;" type="password" [(ngModel)]="form.passwordConfirme" name="passwordConfirme"
 						placeholder="confirm password">
 				</div>
-				<div class="col-12 m2" style="margin-bottom: 10px; margin-top: 10px;">
-					<!-- <select><option>Client</option>
-					<option>Leader</option>
-					<option>Propriétaire maison d'hote</option>
-					</select> -->
-					<!--les roles dans un input-->
-					<div class="row">
-					<label class="dropdown-item"><input type="checkbox" name="roles[]" value="Role_CLIENT">
-						Client</label>
-					<label class="dropdown-item"><input type="checkbox" name="roles[]" value="ROLE_LEADER">
-						Leader</label>
-					<label class="dropdown-item"><input type="checkbox" name="roles[]" value="ROLE_PROPRIETAIRE_MAISON_HOTE">
-						Propriétaire maison d'hote</label>
-					</div>
-					<!-- <label style="font-size: medium; color: white;">Role:</label><br> -->
-					<div class="dropdown">
-						<!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Select roles
-						</button> -->
-						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							
+				<div class="white-background">
+					<div class="col-12 m2">
+						<!--les roles dans un input-->
+				
+						<div class="checkbox-container">
+							<div class="row">
+								<h6 style="font-size: medium; font-weight: bold; color: black;margin-left: 12px;
+								margin-top: 4px;">Roles:</h6>
+								<div class="col">
+				
+								  <div class="input-group mb-3">
+									<div class="input-group-text">
+									  <input type="checkbox" name="roles[]" value="Role_CLIENT">
+									</div>
+									<label class="form-control">Client</label>
+								  </div>
+								</div>
+								<div class="col">
+								  <div class="input-group mb-3 justify-content-center">
+									<div class="input-group-text center">
+									  <input type="checkbox" name="roles[]" value="ROLE_LEADER">
+									</div>
+									<label class="form-control">Leader</label>
+								  </div>
+								</div>
+								<div class="col">
+								  <div class="input-group mb-3">
+									<div class="input-group-text">
+									  <input type="checkbox" name="roles[]" value="ROLE_PROPRIETAIRE_MAISON_HOTE">
+									</div>
+									<label class="form-control">Propriétaire maison d'hote</label>
+								  </div>
+								</div>
+							  </div>
+						</div>
+				
+						<div class="dropdown">
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				
+							</div>
 						</div>
 					</div>
 				</div>
@@ -79,6 +97,6 @@
 			<p class="m2" style="color: white; margin-top: 10px;">Can You Connect Now</p>
 			<p class="m2" style="color: white;"><a href="connexion">Sign In</a></p>
 			<div style="display: flex; justify-content: center; text-align: center;">
-				<button class="contact_button" style="font-size: smaller;" (click)="enregistrer()">Enregistrer</button>
+				<button class="contact_button_auth" style="font-size: smaller;" (click)="enregistrer()">Enregistrer</button>
 			</div>
 		</div>

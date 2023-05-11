@@ -1,9 +1,10 @@
 .text-center {
-  margin-top: 4%;
-  margin-bottom: 0%;
+  margin-top: 1%;
+  margin-bottom: 4%;
 }
 .align-items-center {
-margin-top: 0%;
+  margin-top: -2%;
+  margin-bottom: 0px;
 align-items: center!important;
 }
 .section-offres li {
@@ -20,9 +21,9 @@ h5 {
   background-color: #f3eded;
   border: 2px solid #f3eded;
   border-radius: 5px;
-  padding: 5px;
+  padding: 12px;
   padding-left: 10px;
-  padding-top: 2px;
+  padding-top: 12px;
   padding-right: 10px;
 }
 .section-offres li:hover a:hover {

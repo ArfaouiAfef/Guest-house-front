@@ -242,6 +242,7 @@
 }
 .icon-map-marker:before {
   content: "\f041";
+  color: #605697;
 }
 .icon-adjust:before {
   content: "\f042";

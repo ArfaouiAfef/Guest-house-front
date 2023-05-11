@@ -1,4 +1,4 @@
-.contact_button{
+.contact_button_auth{
     position: relative;
    
     background: #F29C2C;
@@ -10,4 +10,9 @@
     outline: none;
     width: 105px;
     height: 46px;
+}
+.white-background {
+    background-color: #fff;
+    margin-left: 2%;
+    padding-right: 63px;
 }

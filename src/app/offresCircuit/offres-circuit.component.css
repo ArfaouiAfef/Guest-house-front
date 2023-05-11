@@ -52,7 +52,7 @@ a:link {
   -webkit-text-shadow: #fff 0px;
   padding: 8px;
   padding-bottom: -1px;
-  padding-top: 2px;
+  padding-top: 6px;
   border-radius: 6px;
   border: 1px solid #605697;
   text-shadow: #fff 0 0 1px;
@@ -231,10 +231,10 @@ img {
 .img-direction{
   object-fit: contain;
   width: 96%;
-  padding-top: 32px;
+  padding-top: 70px;
   margin-left: -458px;
   margin-bottom: 0;
-  margin-top: -105px;
+  margin-top: -130px;
  
 }
 .card-body .text-right h5.card-title {
@@ -261,7 +261,7 @@ img {
   color: #605697;
   background-color: fff;
   border-color: #605697;
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: 35px;
   padding-bottom: 4px;
 padding-top: 4px;

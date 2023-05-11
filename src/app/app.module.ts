@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { ConnexionComponent } from './auth/connexion/connexion.component';
 import { OublierPasswordComponent } from './auth/oublier-password/oublier-password.component';
 import { InscriptionComponent } from './auth/inscription/inscription.component';
+import { CardHomeComponent } from './card-home/card-home.component';
 
 
 
@@ -35,7 +36,8 @@ import { InscriptionComponent } from './auth/inscription/inscription.component';
     HomeComponent,
     ConnexionComponent,
     InscriptionComponent,
-    OublierPasswordComponent
+    OublierPasswordComponent,
+    CardHomeComponent
   ],
   imports: [
     BrowserModule,

@@ -377,7 +377,7 @@ section {
 3. Header
 *********************************/
 
-.header {
+/* .header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -385,7 +385,7 @@ section {
 	background: #605697;
 	z-index: 100;
 	border-bottom: solid 2px #F29C2C;
-}
+} */
 
 .header_content {
 	width: 100%;

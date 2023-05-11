@@ -29,10 +29,79 @@
 		<div class="home">
 			<!-- <div class="parallax_background parallax-window" data-parallax="scroll"
 				data-image-src="assets/images/index.jpg" data-speed="0.8"></div> -->
-			
+			<app-card-home></app-card-home>
 
 
-			
+			<!-- Search Box -->
+			<div class="search_box">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="search_box_container d-flex flex-row align-items-center justify-content-start">
+								<div class="search_form_container">
+									<div class="nav-choix d-flex d-block">
+										<ul class="nav nav-tabs" role="tablist" style="position:relative">
+											<li role="bravo_hotel m2" style="margin-right: 5px;">
+											  <a href="#" class="active" aria-controls="maison-dhote" role="tab" data-toggle="tab">
+												<i class="icofont-building-alt"></i>&nbsp;&nbsp;&nbsp;Maison D'hote&nbsp;&nbsp;&nbsp;
+											  </a>
+											</li>
+											<li role="bravo_car">
+											  <a href="#" class="" aria-controls="circuit-leader" role="tab" data-toggle="tab">
+												<i class="icofont-island"></i>&nbsp;&nbsp;&nbsp;Circuit Leader&nbsp;&nbsp;&nbsp;
+											  </a>
+											</li>
+										  </ul>
+										  
+									</div>
+									<form action="#" id="search_form" class="search_form"
+										style="justify-items: center;">
+										<div
+											class="d-flex flex-lg-row flex-column align-items-center justify-content-start">
+											<ul
+												class="search_form_list d-flex flex-row align-items-center justify-content-start flex-wrap equal-width">
+												<li>
+													<label for="">Localisation</label>
+													<div class="search_input_container">
+														<input type="text" class="search_input" name="localisation">
+														<span class="search_icon"><i class="icofont-location-pin"
+																style="margin-left: -35px;"></i></span>
+													</div>
+												</li>
+												<li>
+													<label for="">Date de départ</label>
+													<div class="search_input_container">
+														<input type="date" style="text-align: center;"
+															class="search_input m2" name="date_depart">
+
+													</div>
+												</li>
+												<li>
+													<label for="">Date d'Arrivée</label>
+													<div class="search_input_container">
+														<input type="date" style="text-align: center;"
+															class="search_input m2" name="arrivee">
+													</div>
+												</li>
+												<li>
+													<label for="">Personnes</label>
+													<div class="search_dropdown d-flex flex-row align-items-center justify-content-start"
+														style="width: 100%;text-align: center;">
+														<input type="text" class="search_input" name="personnes">
+														<span class="search_icon"><i class="icofont-people"></i></span>
+													</div>
+												</li>
+											</ul>
+											<button class="search_button"
+												style="background-color:#FBA80A ; margin: auto; margin-bottom: 1.4%; justify-items: center;">Rechercher</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 
@@ -52,31 +121,37 @@
 		<!-- pourquoi nous -->
 
 		<div class="container-pqn">
-			<div class="card" style="background-color: #f2f2f2; width: 96%; height: 100%;border: none;margin-left: 2%;">
+			<div class="card"
+				style="background-color: #f2f2f2; width: 96%; height: 100%;border: none;margin-left: 2%;display: block;">
 				<div class="row">
-					<div class="col-6">
+					<div class="col-md-6">
 						<div class="text w-100">
-							<h3 class="prq" style="color: #675599; font-size: 2.75rem;font-weight: bold;">POURQUOI </h3>
-							<h3 style="font-size: 2.75rem; color: #675599;font-weight: bold;"> NOUS?</h3>
-							<div class="ligne" style="border-bottom: 3px solid #FBA80A; width: 25%;"></div>
+							<h3 class="prq"
+								style="color: #675599; font-size: 2.75rem;font-weight: bold;    margin-left: 26px;">
+								POURQUOI <br> NOUS? </h3>
+
+							<div class="ligne"
+								style="border-bottom: 3px solid #FBA80A; width: 25%;    margin-left: 26px;"></div>
 							<p class="desc" style="text-align: justify; margin-left: 10%;margin-top: 40px;">description
 								en
 								petite paragraphe fghjk dfghj sdfghk cvbn,; vbrdyuhnjkm description en petite paragraphe
 								fghjk dfghj sdfghk cvbn,; vbrdyuhnjkm description en petite paragraphe fghjk dfghj
 								sdfghk
-								cvbn,; vbrdyuhnjkm</p>
+								cvbn,; vbrdyuhnjkm ghjk dfghj sdfghk cvbn,; vbrdyuhnjkm description en petite paragraphe
+								fghjk dfghj sdfghk cvbn</p>
 							<a class="suivant" style="color: #675599;margin-left: 10%;" href="#">SUIVANT</a>
 						</div>
 					</div>
-					<div class="col-6">
+					<div class="col-md-6">
 						<div class="img w-100">
-							<img src="assets/images/pourquoiNous.jpg" class="card-img-top card-img w-100 d-flex" alt=""
-								style="border-radius: 4px;margin-top: 40px;">
+							<img src="assets/images/pourquoiNous.jpg" class="card-img-top card-img" alt=""
+								style="border-radius: 4px;margin-top: 57px; margin-left: 80px;display: flex;width: 75%;">
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
 		<!-- nos-maison -->
 		<div class="nos-maison">
 			<app-nos-maison></app-nos-maison>
