@@ -12,6 +12,7 @@ import { ConnexionComponent } from './auth/connexion/connexion.component';
 import { InscriptionComponent } from './auth/inscription/inscription.component';
 import { OublierPasswordComponent } from './auth/oublier-password/oublier-password.component';
 import { CardHomeComponent } from './card-home/card-home.component';
+import { ModifierPasswordComponent } from './auth/modifier-password/modifier-password.component';
 
 
 
@@ -28,6 +29,7 @@ const routes: Routes = [
   {path:'connexion', component:ConnexionComponent},
   {path:'inscription', component:InscriptionComponent},
   {path:'oublier-password', component:OublierPasswordComponent},
+  {path:'modifier-password', component:ModifierPasswordComponent},
   {path:'card-home', component:CardHomeComponent}
 ];
 

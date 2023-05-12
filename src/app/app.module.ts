@@ -17,6 +17,7 @@ import { ConnexionComponent } from './auth/connexion/connexion.component';
 import { OublierPasswordComponent } from './auth/oublier-password/oublier-password.component';
 import { InscriptionComponent } from './auth/inscription/inscription.component';
 import { CardHomeComponent } from './card-home/card-home.component';
+import { ModifierPasswordComponent } from './auth/modifier-password/modifier-password.component';
 
 
 
@@ -37,7 +38,8 @@ import { CardHomeComponent } from './card-home/card-home.component';
     ConnexionComponent,
     InscriptionComponent,
     OublierPasswordComponent,
-    CardHomeComponent
+    CardHomeComponent,
+    ModifierPasswordComponent
   ],
   imports: [
     BrowserModule,
